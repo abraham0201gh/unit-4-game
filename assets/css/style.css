@@ -1,0 +1,161 @@
+
+.outside-container {
+    position: absolute;
+    z-index: 1;
+    width: 900px;
+    height: 910px;   
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-top: 20px;
+    background-size: 100%;
+    margin-bottom: 20px;
+    padding-top: 0px;
+}
+    
+.mainbox-container {
+    border: 2px solid black;
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    left: 0px;
+    padding-left: 10px;
+    padding-top: 0px;
+}
+
+img {
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+}
+
+.gametitle-container {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    width: 260px;
+    height: 75px;
+    box-sizing: auto;
+    color: white;
+    background: rgb(255, 153, 0);
+    display: flex;         /* these next three lines to center text vertically and horizontally within h1 */
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.insructions-container {
+    width: 455px;
+    height: 450px;
+    box-sizing: auto;
+    color: green;
+    background: rgb(235, 223, 201);
+    padding-top: 0px;
+    padding-left: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.random-wins-container {
+    margin: 10px;
+    width: auto;
+    height: auto;
+    box-sizing: auto;
+    color: black;
+}
+
+#computerRandom {
+    float: left;
+    width: 205px;
+    height: 100px;
+    background: rgb(101, 206, 124);
+    font-size: 30px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+#wins-losses {
+    float: left;
+    width: 71px;
+    height: 100px;
+    background: aqua;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 7px;
+    padding-left: 5px;
+}
+
+.crystalimages-container {
+    float: left;
+    margin-bottom: 5px
+}
+
+#ruby{
+    float: left;
+    width: 10%;
+    margin-top: 5px;
+    opacity: 0.99;
+    filter: alpha(opacity=99);
+}
+
+#diamond {
+    float: left;
+    width: 11%;
+    margin-top: 5px;
+    margin-left: 7px;
+    opacity: 0.99;
+    filter: alpha(opacity=99);
+}
+
+#topaz {
+    float: left;
+    width: 10%;
+    margin-top: 5px;
+    margin-left: 7px;
+    opacity: 0.99;
+    filter: alpha(opacity=99);
+}
+
+#emerald {
+    float: left;
+    width: 10%;
+    margin-top: 5px;
+    margin-left: 7px;
+    opacity: 0.99;
+    filter: alpha(opacity=99);
+}
+
+.scoretext-container {
+    float: left;
+    clear: both;
+    width: 205px;
+    height: 30px;
+    background: rgb(25, 196, 181);
+    font-size: 30px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: white;
+    display: flex;          /* these next three lines to center text vertically and horizontally within scoretext-container */
+    align-items: center;
+    justify-content: left;
+}
+
+.playerpoints-container {
+    clear: both;
+    width: 205px;
+    height: 100px;
+    padding-left: 10px;
+    background: rgb(25, 196, 181);
+    font-size: 30px;
+    color: white;
+    margin-bottom: 12px;
+}
+
